@@ -23,7 +23,7 @@ A CLI-based background job queue system built in Python. It manages background j
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/queuectl.git
+git clone https://github.com/nith49/queuectl.git
 cd queuectl
 
 # Install in editable mode (creates the `queuectl` command)
@@ -290,6 +290,9 @@ queuectl dlq retry fail
 - **Scheduled/delayed jobs** — `run_at` field for future execution (also used internally for backoff)
 - **Job output logging** — stdout/stderr captured in `output` and `error` fields
 
-## License
+## Video Demo
 
-MIT
+https://github.com/user-attachments/assets/fea4236e-a15d-41ea-971f-61afeaf348eb
+
+
+
