@@ -12,6 +12,10 @@ A CLI-based background job queue system built in Python. It manages background j
 - **Graceful Shutdown** — Workers finish their current job before exiting on SIGTERM/SIGINT
 - **Configurable** — Retry count, backoff base, poll interval, and job timeout are all configurable via CLI
 
+## Video Demo
+
+https://github.com/user-attachments/assets/fea4236e-a15d-41ea-971f-61afeaf348eb
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -290,9 +294,6 @@ queuectl dlq retry fail
 - **Scheduled/delayed jobs** — `run_at` field for future execution (also used internally for backoff)
 - **Job output logging** — stdout/stderr captured in `output` and `error` fields
 
-## Video Demo
-
-https://github.com/user-attachments/assets/fea4236e-a15d-41ea-971f-61afeaf348eb
 
 
 
